@@ -29,7 +29,6 @@
     text-align: left;
     & h1 {
       color: #523D35;
-      font-style: italic;
       font-size: clamp(40px, 15%, 66px);
     }
     & p {
@@ -45,7 +44,7 @@
   }
   
   /* Navigation bar */
-nav.navbar {
+  nav.navbar {
     background-color: #223030;
     padding: 0.5em 0;
     & ul {
