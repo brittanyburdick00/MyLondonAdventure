@@ -43,7 +43,7 @@
     }
   }
   header {
-    background: url("/images/headerimg.png") center bottom/cover no-repeat;
+    background: url("/images/header#2.png") center/cover no-repeat;
     padding: 50px;
     text-align: left;
     color: white; /* Adjust text color for visibility */
@@ -76,7 +76,6 @@
     & a:hover,
     & a:focus,
     & a.current {
-      background-color: #AF8168;
       color: #EFEFE9;
       text-decoration: underline;
     }
