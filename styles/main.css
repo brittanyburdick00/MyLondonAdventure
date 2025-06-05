@@ -24,8 +24,8 @@
   
   /* Header styles */
   header {
-    background: linear-gradient(to bottom, #BBA58F, #E8D9CD);
-    padding: 20px;
+    /*background: linear-gradient(to bottom, #BBA58F, #E8D9CD);*/
+    padding: 50px;
     text-align: left;
     & h1 {
       color: #523D35;
@@ -43,7 +43,7 @@
     }
   }
   header {
-    background: url("../images/BigBen.jpg") center/cover no-repeat;
+    background: url("../images/headerimg.jpg") center/cover no-repeat;
     padding: 20px;
     text-align: left;
     color: white; /* Adjust text color for visibility */
@@ -74,8 +74,10 @@
       transition: background-color 0.3s ease;
     }
     & a:hover,
-    & a:focus {
-      background-color: #BBA58F;
+    & a:focus,
+    & a.current {
+      background-color: #AF8168;
+      color: #EFEFE9;
       text-decoration: underline;
     }
   }
