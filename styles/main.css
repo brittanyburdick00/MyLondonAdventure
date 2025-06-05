@@ -129,16 +129,19 @@
     width: 350px;
   }
   
-  section img.main-image, img.tips-img {
+  section img.main-image, img.travel-img {
     float: left;
     width: 350px;
     margin: 0 1.5em 1em 0;
     shape-margin: 1em;
   }
 
-  section img.tips-img {
+  section img.tips-img, img.travel-img {
     border: 2px solid #523D35;
     border-radius: 12px;
+  }
+  section img.tips-img {
+    width: 600px;
   }
   
   section figure {
