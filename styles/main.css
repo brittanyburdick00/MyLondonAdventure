@@ -129,7 +129,7 @@
     width: 350px;
   }
   
-  section img.main-image, img.travel-img {
+  section img.main-image, img.tips-img, img.travel-img {
     float: left;
     width: 350px;
     margin: 0 1.5em 1em 0;
