@@ -43,7 +43,7 @@
     }
   }
   header {
-    background: url("../images/headerimg.jpg") center/cover no-repeat;
+    background: url("../images/headerimg.png") center/cover no-repeat;
     padding: 20px;
     text-align: left;
     color: white; /* Adjust text color for visibility */
