@@ -24,7 +24,7 @@
   
   /* Header styles */
   header {
-    /*background: linear-gradient(to bottom, #BBA58F, #E8D9CD);*/
+    background: linear-gradient(to bottom, #BBA58F, #E8D9CD);
     padding: 50px;
     text-align: left;
     & h1 {
@@ -42,13 +42,6 @@
       width: clamp(100px, 15%, 120px);
     }
   }
-  header {
-    background: url("/images/header#2.png") center/cover no-repeat;
-    padding: 50px;
-    text-align: left;
-    color: white; /* Adjust text color for visibility */
-  }
-  
 
   /* Navigation bar */
   nav.navbar {
@@ -129,7 +122,13 @@
       border-bottom: 2px solid #959D90;
     }
   }
-  
+  /* Only for homepage floated image */
+  .float-home-img {
+    float: left;
+    width: 350px; /* adjust as needed */
+    margin: 0 1.5em 1em 0;
+    shape-margin: 1em;
+  }
   aside {
     grid-area: aside;
     background-color: #E8D9CD;
@@ -157,38 +156,13 @@
   }
   
   footer {
-    background-color: #223030;
-    color: #EFEFE9;
+    background: linear-gradient(to bottom, #BBA58F, #E8D9CD);
+    color: #223030;
     text-align: center;
     font-size: 0.9em;
     padding: 15px;
   }
   
-  /* Navigation bar */
-  nav.navbar {
-    background-color: #223030;
-    & ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      list-style: none;
-      padding: 0;
-    }
-    & li {
-      flex-basis: 20%;
-      text-align: center;
-    }
-    & a {
-      display: block;
-      padding: 1em;
-      color: #EFEFE9;
-    }
-    & a:hover,
-    & a:focus {
-      background-color: #523D35;
-      text-decoration: underline;
-    }
-  }
   
   /* Responsive layout for larger screens */
   @media only screen and (min-width: 725px) {
