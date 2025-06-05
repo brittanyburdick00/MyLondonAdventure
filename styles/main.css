@@ -69,7 +69,7 @@
     & a:hover,
     & a:focus,
     & a.current {
-      color: #EFEFE9;
+      color: #9EB589;
       text-decoration: underline;
     }
   }
@@ -123,7 +123,7 @@
     }
   }
   /* Only for homepage floated image */
-  .float-home-img {
+  .main-img {
     float: left;
     width: 350px; /* adjust as needed */
     margin: 0 1.5em 1em 0;
