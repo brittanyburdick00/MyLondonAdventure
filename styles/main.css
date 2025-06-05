@@ -111,6 +111,13 @@
     & img {
       width: 350px;
     }
+    /* Only for homepage floated image */
+    & img.main-img {
+      float: left;
+      width: 350px; /* adjust as needed */
+      margin: 0 1.5em 1em 0;
+      shape-margin: 1em;
+    } 
     & figure {
       float: left;
       margin: 0.5em;
@@ -122,13 +129,15 @@
       border-bottom: 2px solid #959D90;
     }
   }
-  /* Only for homepage floated image */
-  .main-img {
-    float: left;
-    width: 350px; /* adjust as needed */
-    margin: 0 1.5em 1em 0;
-    shape-margin: 1em;
+
+  article img {
+    max-width: 600px;
+    width: 100%;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    display: block; /* Ensures padding behaves consistently */
   }
+
   aside {
     grid-area: aside;
     background-color: #E8D9CD;
