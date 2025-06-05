@@ -129,11 +129,16 @@
     width: 350px;
   }
   
-  section img.main-image {
+  section img.main-image, img.tips-img {
     float: left;
     width: 350px;
     margin: 0 1.5em 1em 0;
     shape-margin: 1em;
+  }
+
+  section img.tips-img {
+    border: 2px solid #523D35;
+    border-radius: 12px;
   }
   
   section figure {
