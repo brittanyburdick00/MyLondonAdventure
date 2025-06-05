@@ -43,8 +43,8 @@
   header img {
     float: left;
     margin-right: 15px;
-    max-width: 120px;
-    width: clamp(100px, 15%, 120px);
+    max-width: 300px;
+    width: clamp(150px, 15%, 300px);
   }
   
   /* Navigation bar */
@@ -103,6 +103,7 @@
   
   section p {
     padding-top: 0.5em;
+    padding-bottom: 1em;
     line-height: 1.5;
   }
   
@@ -150,8 +151,8 @@
   article img {
     max-width: 600px;
     width: 100%;
-    padding-top: 3em;
-    padding-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     display: block;
     margin: 0;
   }
