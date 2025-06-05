@@ -84,14 +84,11 @@
   
   /* Main layout */
   main {
-    display: grid;
-    grid-template-areas:
-      "section"
-      "aside";
-    grid-template-columns: 1fr;
-    gap: 1.5em;
+    display: block;
     padding: 1.5em;
-  }
+    max-width: 1100px;
+    margin: auto;
+  }  
   
   section {
     grid-area: section;
@@ -233,26 +230,21 @@
   }
   
   /* Responsive layout for larger screens */
-  @media only screen and (min-width: 725px) {
+  @media (min-width: 725px) {
     main {
-      grid-template-areas: "section aside";
-      grid-template-columns: 64% 35%;
-      align-items: start;
-    }
-  
-    .menu-btn,
-    #menu-toggle {
-      display: none;
-    }
-  
-    .navbar .menu {
       display: flex;
-      justify-content: space-evenly;
-      background-color: #223030;
+      gap: 2em;
     }
   
-    .navbar .menu li a {
-      padding: 1em;
+    section,
+    article {
+      flex: 1 1 65%;
+    }
+  
+    aside {
+      flex: 1 1 30%;
+      margin-top: 2em;
     }
   }
+  
 
