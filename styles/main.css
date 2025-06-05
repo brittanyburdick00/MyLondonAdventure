@@ -165,6 +165,34 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   }
   
+  .attractions-block {
+    overflow: hidden; /* ensures container wraps around floated children */
+    margin-bottom: 2em;
+  }
+  
+  .attraction-img {
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-right: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .attractions-list {
+    overflow: hidden;
+  }
+  
+  .attractions-list h2 {
+    margin-top: 0;
+  }
+  
+  .attractions-list ul {
+    list-style-type: disc;
+    padding-left: 1.2em;
+    line-height: 1.6;
+  }  
+
   aside {
     grid-area: aside;
     background-color: #E8D9CD;
