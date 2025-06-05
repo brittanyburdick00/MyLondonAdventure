@@ -233,21 +233,26 @@
   }
   
   /* Responsive layout for larger screens */
-  @media (min-width: 725px) {
+  @media only screen and (min-width: 725px) {
     main {
+      grid-template-areas: "section aside";
+      grid-template-columns: 64% 35%;
+      align-items: start;
+    }
+  
+    .menu-btn,
+    #menu-toggle {
+      display: none;
+    }
+  
+    .navbar .menu {
       display: flex;
-      gap: 2em;
+      justify-content: space-evenly;
+      background-color: #223030;
     }
   
-    section,
-    article {
-      flex: 1 1 65%;
-    }
-  
-    aside {
-      flex: 1 1 30%;
-      margin-top: 2em;
+    .navbar .menu li a {
+      padding: 1em;
     }
   }
-  
 
